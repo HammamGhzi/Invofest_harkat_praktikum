@@ -23,6 +23,7 @@ export default function DashboardLayouts() {
           <Link to="/dashboard/category" className="text-black font-bold uppercase border-2 border-black p-2 bg-white shadow-[3px_3px_0px_0px_#000] hover:bg-yellow-400 hover:shadow-[5px_5px_0px_0px_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">Category</Link>
           <Link to="/dashboard/event" className="text-black font-bold uppercase border-2 border-black p-2 bg-white shadow-[3px_3px_0px_0px_#000] hover:bg-yellow-400 hover:shadow-[5px_5px_0px_0px_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">Event</Link>
           <Link to="/dashboard/seminar" className="text-black font-bold uppercase border-2 border-black p-2 bg-white shadow-[3px_3px_0px_0px_#000] hover:bg-yellow-400 hover:shadow-[5px_5px_0px_0px_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">Pembicara</Link>
+          <Link to="/dashboard/users" className="text-black font-bold uppercase border-2 border-black p-2 bg-white shadow-[3px_3px_0px_0px_#000] hover:bg-yellow-400 hover:shadow-[5px_5px_0px_0px_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">Users</Link>
           <Link to="/dashboard/biodata" className="text-black font-bold uppercase border-2 border-black p-2 bg-white shadow-[3px_3px_0px_0px_#000] hover:bg-yellow-400 hover:shadow-[5px_5px_0px_0px_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">Biodata</Link>
         </div>
 

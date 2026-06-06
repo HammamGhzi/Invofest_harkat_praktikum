@@ -20,6 +20,9 @@ import EventCreate from "./dashboard/event/EventCreate";
 import CategoryUpdate from "./dashboard/category/CategoryUpdate";
 import EventUpdate from "./dashboard/event/EventUpdate";
 import UpdateSpeaker from "./dashboard/seminar/UpdateSpeaker";
+import UserIndex from "./dashboard/users/UsersIndex";
+import UsersCreate from "./dashboard/users/UsersCreate";
+import UpdateUser from "./dashboard/users/UpdateUsers";
 import BiodataIndex from "./dashboard/biodata/BiodataIndex";
 
 function App() {
@@ -50,6 +53,9 @@ function App() {
               <Route path="/dashboard/seminar" element={<SeminarIndex />} />
               <Route path="/dashboard/seminar/speaker" element={<SpeakerCreate/>}/>
               <Route path="/dashboard/seminar/speaker/update/:id" element={<UpdateSpeaker />} />
+              <Route path="/dashboard/users" element={<UserIndex />} />
+              <Route path="/dashboard/users/create" element={<UsersCreate />} />
+              <Route path="/dashboard/users/update/:id" element={<UpdateUser />} />
               <Route path="/dashboard/biodata" element={<BiodataIndex />} />
             </Route>
           </Route>
